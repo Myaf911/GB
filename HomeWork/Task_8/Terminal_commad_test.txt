@@ -8,16 +8,13 @@ myaf@MacBook-Pro-Katasonov Task_8 % dotnet new console
 Восстановление выполнено.
 
 
-myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
+myaf@MacBook-Pro-Katasonov Task_8 % dotnet run
+/Users/myaf/GB/HomeWork/Task_8/Program.cs(2,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_8/Task_8.csproj]
 введите число
-4
-ДА - число чётное
-myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
+5
+Все чётные числа до вашего числа: 2 4 %                                                                       
+myaf@MacBook-Pro-Katasonov Task_8 % dotnet run
 введите число
--3
-НЕТ - число не чётное
-myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
-введите число
-7
-НЕТ - число не чётное
-myaf@MacBook-Pro-Katasonov Task_6 % 
+8
+Все чётные числа до вашего числа: 2 4 6 8 %                                                                   
+myaf@MacBook-Pro-Katasonov Task_8 % 
