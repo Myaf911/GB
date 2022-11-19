@@ -9,9 +9,6 @@ myaf@MacBook-Pro-Katasonov Task_4 % dotnet new console
 
 
 myaf@MacBook-Pro-Katasonov Task_4 % dotnet run
-/Users/myaf/GB/HomeWork/Task_4/Program.cs(2,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
-/Users/myaf/GB/HomeWork/Task_4/Program.cs(6,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
-/Users/myaf/GB/HomeWork/Task_4/Program.cs(10,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
 введите число 1
 2
 введите число 2

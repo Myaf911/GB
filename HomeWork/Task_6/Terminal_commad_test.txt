@@ -1,0 +1,23 @@
+myaf@MacBook-Pro-Katasonov Task_6 % dotnet new console
+Шаблон "Консольное приложение" успешно создан.
+
+Идет обработка действий после создания...
+Восстановление /Users/myaf/GB/HomeWork/Task_6/Task_6.csproj:
+  Определение проектов для восстановления...
+  Восстановлен /Users/myaf/GB/HomeWork/Task_6/Task_6.csproj (за 33 ms).
+Восстановление выполнено.
+
+
+myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
+введите число
+4
+ДА - число чётное
+myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
+введите число
+-3
+НЕТ - число не чётное
+myaf@MacBook-Pro-Katasonov Task_6 % dotnet run
+введите число
+7
+НЕТ - число не чётное
+myaf@MacBook-Pro-Katasonov Task_6 % 
