@@ -1,4 +1,6 @@
-﻿Console.WriteLine("введите число");
+﻿Console.Clear();
+Console.WriteLine("Задача 6");
+Console.WriteLine("введите число");
 string input1 = Console.ReadLine();
 int number1 = Convert.ToInt32(input1);
 
