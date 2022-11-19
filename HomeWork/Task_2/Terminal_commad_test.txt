@@ -1,0 +1,31 @@
+myaf@MacBook-Pro-Katasonov Task_2 % dotnet new console
+Шаблон "Консольное приложение" успешно создан.
+
+Идет обработка действий после создания...
+Восстановление /Users/myaf/GB/HomeWork/Task_2/Task_2.csproj:
+  Определение проектов для восстановления...
+  Восстановлен /Users/myaf/GB/HomeWork/Task_2/Task_2.csproj (за 31 ms).
+Восстановление выполнено.
+
+
+myaf@MacBook-Pro-Katasonov Task_2 % dotnet run
+/Users/myaf/GB/HomeWork/Task_2/Program.cs(2,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_2/Task_2.csproj]
+/Users/myaf/GB/HomeWork/Task_2/Program.cs(6,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_2/Task_2.csproj]
+введите число 1
+5
+введите число 2
+7
+Число 7 больше
+myaf@MacBook-Pro-Katasonov Task_2 % dotnet run
+введите число 1
+2
+введите число 2
+10
+Число 10 больше
+myaf@MacBook-Pro-Katasonov Task_2 % dotnet run  
+введите число 1
+-9
+введите число 2
+-3
+Число -3 больше
+myaf@MacBook-Pro-Katasonov Task_2 % 

@@ -1,0 +1,38 @@
+myaf@MacBook-Pro-Katasonov Task_4 % dotnet new console
+Шаблон "Консольное приложение" успешно создан.
+
+Идет обработка действий после создания...
+Восстановление /Users/myaf/GB/HomeWork/Task_4/Task_4.csproj:
+  Определение проектов для восстановления...
+  Восстановлен /Users/myaf/GB/HomeWork/Task_4/Task_4.csproj (за 33 ms).
+Восстановление выполнено.
+
+
+myaf@MacBook-Pro-Katasonov Task_4 % dotnet run
+/Users/myaf/GB/HomeWork/Task_4/Program.cs(2,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
+/Users/myaf/GB/HomeWork/Task_4/Program.cs(6,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
+/Users/myaf/GB/HomeWork/Task_4/Program.cs(10,17): warning CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL. [/Users/myaf/GB/HomeWork/Task_4/Task_4.csproj]
+введите число 1
+2
+введите число 2
+3
+введите число 3
+7
+Максимальное - 7
+myaf@MacBook-Pro-Katasonov Task_4 % dotnet run
+введите число 1
+44
+введите число 2
+5
+введите число 3
+78
+Максимальное - 78
+myaf@MacBook-Pro-Katasonov Task_4 % dotnet run
+введите число 1
+22
+введите число 2
+3
+введите число 3
+9
+Максимальное - 22
+myaf@MacBook-Pro-Katasonov Task_4 % 
