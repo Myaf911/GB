@@ -1,5 +1,6 @@
 ﻿Console.Clear();
 Console.WriteLine("Задача 4");
+Console.WriteLine("Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.");
 Console.WriteLine("введите число 1");
 string input1 = Console.ReadLine();
 int number1 = Convert.ToInt32(input1);
