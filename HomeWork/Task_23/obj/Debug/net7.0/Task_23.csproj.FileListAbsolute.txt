@@ -1,0 +1,15 @@
+/Users/myaf/GB/HomeWork/Task_23/bin/Debug/net7.0/Task_23
+/Users/myaf/GB/HomeWork/Task_23/bin/Debug/net7.0/Task_23.deps.json
+/Users/myaf/GB/HomeWork/Task_23/bin/Debug/net7.0/Task_23.runtimeconfig.json
+/Users/myaf/GB/HomeWork/Task_23/bin/Debug/net7.0/Task_23.dll
+/Users/myaf/GB/HomeWork/Task_23/bin/Debug/net7.0/Task_23.pdb
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.csproj.AssemblyReference.cache
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.GeneratedMSBuildEditorConfig.editorconfig
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.AssemblyInfoInputs.cache
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.AssemblyInfo.cs
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.csproj.CoreCompileInputs.cache
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.dll
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/refint/Task_23.dll
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.pdb
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/Task_23.genruntimeconfig.cache
+/Users/myaf/GB/HomeWork/Task_23/obj/Debug/net7.0/ref/Task_23.dll
