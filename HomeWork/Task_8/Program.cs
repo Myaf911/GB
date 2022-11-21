@@ -7,14 +7,15 @@ WriteLine("Напишите программу, которая на вход п�
 WriteLine("5 -> 2, 4");
 WriteLine("8 -> 2, 4, 6, 8");
 WriteLine(" ");
-WriteLine("введите число: ");
-string input1 = ReadLine();
+Console.WriteLine("введите число: ");
+string input1 = Console.ReadLine();
 int number1 = Convert.ToInt32(input1);
 int count = 2;
-Write("Все чётные числа до вашего числа: ");
-while 
-(count <= number1)
+
+Console.Write("Все чётные числа до вашего числа: ");
+
+while (count <= number1)
 {
-Write(count + " ");
+Console.Write(count + " ");
 count = count + 2;
 }
