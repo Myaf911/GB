@@ -1,12 +1,15 @@
-﻿Console.Clear();
-Console.WriteLine("Задача 27");
-Console.WriteLine("Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.");
-Console.WriteLine("452 - > 11");
-Console.WriteLine("82 - > 10");
-Console.WriteLine("9012 - > 12");
-Console.WriteLine(" ");
-Console.WriteLine("Напишиши число");
-int i = Convert.ToInt32(Console.ReadLine());
+﻿using System;
+using static System.Console;
+
+Clear();
+WriteLine("Задача 27");
+WriteLine("Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.");
+WriteLine("452 - > 11");
+WriteLine("82 - > 10");
+WriteLine("9012 - > 12");
+WriteLine(" ");
+WriteLine("Напишиши число: ");
+int i = Convert.ToInt32(ReadLine());
 int sum = 0;
 
 while (i > 0)
@@ -15,4 +18,4 @@ int num = i % 10;
 i = i / 10;
 sum = sum + num;
 }
-Console.WriteLine("В твоемм числе, сумма всех цифр равна: " + sum);
+WriteLine("В твоемм числе, сумма всех цифр равна: " + sum);

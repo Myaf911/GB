@@ -1,16 +1,22 @@
-﻿Console.Clear();
-Console.WriteLine("Задача 13");
-Console.WriteLine("Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.");
-Console.WriteLine("645 - > 5");
-Console.WriteLine("78 - > третьего числа нет");
-Console.WriteLine("32679 - > 6");
-Console.WriteLine(" ");
-Console.Write("Введи число: ");
-int anyNumber = Convert.ToInt32(Console.ReadLine());
+﻿using System;
+using static System.Console;
+
+Clear();
+WriteLine("Задача 13");
+WriteLine("Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.");
+WriteLine("645 - > 5");
+WriteLine("78 - > третьего числа нет");
+WriteLine("32679 - > 6");
+WriteLine(" ");
+Write("Введи число: ");
+int anyNumber = Convert.ToInt32(ReadLine());
 string anyNumberText = Convert.ToString(anyNumber);
-if (anyNumberText.Length > 2){
-  Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+if 
+(anyNumberText.Length > 2)
+{
+  WriteLine("третья цифра -> " + anyNumberText[2]);
 }
-else {
-  Console.WriteLine("-> тут всего 2 числа, где третье???");
+else 
+{
+  WriteLine("-> тут всего 2 числа, где третье???");
 }

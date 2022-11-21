@@ -1,11 +1,14 @@
-﻿Console.Clear();
-Console.WriteLine("Задача 23");
-Console.WriteLine("Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.");
-Console.WriteLine("3 - > 1, 8, 27");
-Console.WriteLine("5 - > 1, 8, 27, 64, 125");
-Console.WriteLine(" ");
-Console.Write("Введите число: ");
-int cube = Convert.ToInt32(Console.ReadLine());
+﻿using System;
+using static System.Console;
+
+Clear();
+WriteLine("Задача 23");
+WriteLine("Напишите программу, которая принимает на вход число (N) \nи выдаёт таблицу кубов чисел от 1 до N.");
+WriteLine("3 - > 1, 8, 27");
+WriteLine("5 - > 1, 8, 27, 64, 125");
+WriteLine(" ");
+Write("Введите число: ");
+int cube = Convert.ToInt32(ReadLine());
 
 void Cube(int[] cube){
   int counter = 0;
@@ -27,5 +30,5 @@ void PrintArry(int[] coll){
 
 int[] arry = new int[cube+1];
 Cube(arry);
-Console.WriteLine("А вот и числа!!!");
+WriteLine("А вот и числа!!!");
 PrintArry(arry);

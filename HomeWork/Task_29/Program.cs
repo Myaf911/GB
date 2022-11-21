@@ -16,7 +16,7 @@ while(true)
 {
     WriteLine("Введите " + count + "-е число:");
         string str = ReadLine();
-        if(str == "стоп")   // Комманда завершающая бесконечный ввод числа N
+        if(str == "стоп")   // Комманда для ввода в терминале завершающая бесконечный ввод числа N
         {
             break;
         }
@@ -41,7 +41,6 @@ void Print(List<int> array)
     {
         if(index == 0) Write("[" + array[index] + ", ");    // Запятая за первым числом
         else 
-        
         if (index == count - 2) Write(array[index] + "]!"); // Строка выдачи
         else Write(array[index] + ", "); // Запятая за всеми остальными числами кроме первого
     }

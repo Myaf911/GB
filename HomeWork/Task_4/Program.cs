@@ -1,32 +1,39 @@
-﻿Console.Clear();
-Console.WriteLine("Задача 4");
-Console.WriteLine("Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.");
-Console.WriteLine("введите число 1");
-string input1 = Console.ReadLine();
-int number1 = Convert.ToInt32(input1);
+﻿using System;
+using static System.Console;
 
-Console.WriteLine("введите число 2");
-string input2 = Console.ReadLine();
-int number2 = Convert.ToInt32(input2);
+Clear();
+WriteLine("Задача 4");
+WriteLine("Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.");
+WriteLine("2, 3, 7 -> 7");
+WriteLine("44 5 78 -> 78");
+WriteLine("22 3 9 -> 22");
+WriteLine(" ");
+WriteLine("Введите первое число: ");
+int firstNumber = Convert.ToInt32(ReadLine());
 
-Console.WriteLine("введите число 3");
-string input3 = Console.ReadLine();
-int number3 = Convert.ToInt32(input3);
-int max = 0;
+WriteLine("Введите второе число: ");
+int secondNumber = Convert.ToInt32(ReadLine());
 
-if (number1 > number2)
+WriteLine("Введите третье число: ");
+int thirdNumber = Convert.ToInt32(ReadLine());
+
+if (firstNumber > secondNumber)
 {
-max = number1;
+    if (firstNumber > thirdNumber)
+    {
+        WriteLine("Максимальное число: " + firstNumber);
+    }
+    else
+    {
+        WriteLine("Максимальное число: " + thirdNumber);
+    }
 }
 
+else if (secondNumber > thirdNumber)
+{
+    WriteLine("Максимальное число: " + secondNumber);
+}
 else
 {
-max = number2;
+    WriteLine("Максимальное число: " + thirdNumber);
 }
-
-if (number3 > max)
-{
-max = number3;
-}
-
-Console.WriteLine("Максимальное - " + max);
