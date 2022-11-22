@@ -1,3 +1,6 @@
 .vscode
 ProgramTest
 Tasks
+C#-instr
+.gitignore
+some.txt
