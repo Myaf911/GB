@@ -19,7 +19,7 @@ int number2 = Convert.ToInt32(input2);
 if (number1 > number2)
 {
 Console.WriteLine("Число " + number1 + " больше");
-}
+} 
 
 if (number1 < number2)
 {
