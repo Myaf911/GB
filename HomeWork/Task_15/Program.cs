@@ -8,7 +8,7 @@ WriteLine("6 - > да");
 WriteLine("1 - > нет");
 WriteLine(" ");
 Write("Введи цифру, обозначающую день недели: ");
-int dayNumber = Convert.ToInt32(ReadLine());
+int dayNumber = Convert.ToInt32(ReadLine()); 
 
 void CheckingTheDayOfTheWeek (int dayNumber) 
 {
