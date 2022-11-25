@@ -20,4 +20,4 @@ Console.WriteLine("ДА - число чётное");
 else
 {
 Console.WriteLine("НЕТ - число не чётное");
-}
+} 
