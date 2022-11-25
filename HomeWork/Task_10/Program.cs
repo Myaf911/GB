@@ -1,14 +1,15 @@
 ﻿using System;
 using static System.Console;
 
-Clear();
-WriteLine("Задача 10");
-WriteLine("Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.");
-WriteLine("456 - > 5");
-WriteLine("782 - > 8");
-WriteLine("918 - > 1");
-WriteLine(" ");
-Write("Введи трёхзначное число: ");
-int threeDigitNumber = Convert.ToInt32(ReadLine());
-string stringNumber = Convert.ToString(threeDigitNumber);
-WriteLine("вторая цифра этого числа -> "+stringNumber[1]);
+Console.Clear();
+Console.WriteLine("Задача 10");
+Console.WriteLine("Напишите программу, которая принимает на вход трёхзначное число \nи на выходе показывает вторую цифру этого числа.");
+Console.WriteLine("456 - > 5");
+Console.WriteLine("782 - > 8");
+Console.WriteLine("918 - > 1");
+Console.WriteLine(" ");
+Console.Write("Введи ваше  число: ");
+
+int number = Convert.ToInt32(ReadLine());
+string numberString = Convert.ToString(Math.Abs(number));
+WriteLine($"вторая цифра твоего числа {number} -> "+numberString[1]);

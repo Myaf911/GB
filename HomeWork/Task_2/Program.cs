@@ -1,32 +1,32 @@
 ﻿using System;
 using static System.Console;
 
-Clear();
-WriteLine("Задача 2");
-WriteLine("Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее");
-WriteLine("a = 5; b = 7 - > max = 7");
-WriteLine("a = 2 b = 10 - > max = 10");
-WriteLine("a = -9 b = -3 - > max = -3");
-WriteLine(" ");
-WriteLine("введите число 1");
-string input1 = ReadLine();
+Console.Clear();
+Console.WriteLine("Задача 2");
+Console.WriteLine("Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее");
+Console.WriteLine("a = 5; b = 7 - > max = 7");
+Console.WriteLine("a = 2 b = 10 - > max = 10");
+Console.WriteLine("a = -9 b = -3 - > max = -3");
+Console.WriteLine(" ");
+Console.WriteLine("введите число 1");
+string input1 = Console.ReadLine();
 int number1 = Convert.ToInt32(input1);
 
-WriteLine("введите число 2");
-string input2 = ReadLine();
+Console.WriteLine("введите число 2");
+string input2 = Console.ReadLine();
 int number2 = Convert.ToInt32(input2);
 
 if (number1 > number2)
 {
-WriteLine("Число " + number1 + " больше");
+Console.WriteLine("Число " + number1 + " больше");
 }
 
 if (number1 < number2)
 {
-WriteLine("Число " + number2 + " больше");
+Console.WriteLine("Число " + number2 + " больше");
 }
 
 if (number1 == number2) 
 {
-WriteLine("Вы ввели одинаковые числа");
+Console.WriteLine("Вы ввели одинаковые числа");
 }

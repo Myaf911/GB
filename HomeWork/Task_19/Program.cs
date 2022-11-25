@@ -9,17 +9,21 @@ WriteLine("12821 - > да");
 WriteLine("23432 - > да");
 WriteLine(" ");
 WriteLine("Задача 19");
-Write("Введите число: ");
-string? number = ReadLine();
-
-void CheckingNumber(string number){
-  if (number[0]==number[4] || number[1]==number[3]){
-    WriteLine($"Ваше число: {number} - Да, это точно палиндром!");
-  }
-  else WriteLine($"Ваше число: {number} - Нет, это точно не палиндром.");
+Write("Введите пятизначное число: ");
+int number = Convert.ToInt32(ReadLine());
+string numberString = Convert.ToString(Math.Abs(number));
+if (numberString.Length != 5)
+{
+    WriteLine($"Это не пятизначное число!");
 }
-
-if (number!.Length == 5){
-  CheckingNumber(number);
+else
+{
+    if (numberString[0] == numberString[4] && numberString[1] == numberString[3])
+    {
+        WriteLine($"Ваше число: {number} - Да, это точно палиндром!");
+    }
+    else
+    {
+        WriteLine($"Ваше число: {number} - Нет, это точно не палиндром.");
+    }
 }
-else WriteLine($"Введи правильное число");

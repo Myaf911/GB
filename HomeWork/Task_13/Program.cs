@@ -10,13 +10,13 @@ WriteLine("32679 - > 6");
 WriteLine(" ");
 Write("Введи число: ");
 int anyNumber = Convert.ToInt32(ReadLine());
-string anyNumberText = Convert.ToString(anyNumber);
+string anyNumberText = Convert.ToString(Math.Abs(anyNumber));
 if 
 (anyNumberText.Length > 2)
 {
-  WriteLine("третья цифра -> " + anyNumberText[2]);
+  WriteLine($"третья цифра твоего числа {anyNumber} -> " + anyNumberText[2]);
 }
 else 
 {
-  WriteLine("-> тут всего 2 числа, где третье???");
+  WriteLine($" {anyNumber} -> тут всего 2 числа, где третье???");
 }
