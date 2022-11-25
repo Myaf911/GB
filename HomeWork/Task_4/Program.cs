@@ -26,7 +26,7 @@ if (firstNumber > secondNumber)
     else
     {
         Console.WriteLine("Максимальное число: " + thirdNumber);
-    }
+    } 
 }
 
 else if (secondNumber > thirdNumber)
