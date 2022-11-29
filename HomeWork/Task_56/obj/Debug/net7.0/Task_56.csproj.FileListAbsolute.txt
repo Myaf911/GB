@@ -1,0 +1,15 @@
+/Users/myaf/GB/HomeWork/Task_56/bin/Debug/net7.0/Task_56
+/Users/myaf/GB/HomeWork/Task_56/bin/Debug/net7.0/Task_56.deps.json
+/Users/myaf/GB/HomeWork/Task_56/bin/Debug/net7.0/Task_56.runtimeconfig.json
+/Users/myaf/GB/HomeWork/Task_56/bin/Debug/net7.0/Task_56.dll
+/Users/myaf/GB/HomeWork/Task_56/bin/Debug/net7.0/Task_56.pdb
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.csproj.AssemblyReference.cache
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.GeneratedMSBuildEditorConfig.editorconfig
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.AssemblyInfoInputs.cache
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.AssemblyInfo.cs
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.csproj.CoreCompileInputs.cache
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.dll
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/refint/Task_56.dll
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.pdb
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/Task_56.genruntimeconfig.cache
+/Users/myaf/GB/HomeWork/Task_56/obj/Debug/net7.0/ref/Task_56.dll
