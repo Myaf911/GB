@@ -3,12 +3,7 @@ using static System.Console;
 
 Clear();
 WriteLine("Задача 47");
-WriteLine("Задайте двумерный массив размером m*n, заполненный случайными вещественными числами.");
-WriteLine("m = 3, n = 4");
-WriteLine("0,5  7   -2   -0,2");
-WriteLine("1   -3,3  8   -9,9");
-WriteLine("8    7,8 -7,1  9");
-
+WriteLine("Задайте двумерный массив размером m*n, заполненный случайными вещественными числами.\n m = 3, n = 4\n 0,5  7   -2   -0,2\n 1   -3,3  8   -9,9\n 8    7,8 -7,1  9");
 
 WriteLine("\nКоличество строк: ");
 int linesVol = Convert.ToInt32(ReadLine());

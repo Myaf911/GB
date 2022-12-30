@@ -5,11 +5,11 @@ Clear();
 WriteLine("Задача 50");
 WriteLine("Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, \nи возвращает значение этого элемента или же указание, что такого элемента нет.\n1 4 7 2\n5 9 2 3\n8 4 2 4\n17 -> такого числа в массиве нет");
 
-WriteLine("\nвведите номер строки");
+WriteLine("\nВведите номер строки");
 int n = Convert.ToInt32(ReadLine());
-WriteLine("введите номер столбца");
+WriteLine("Введите номер столбца");
 int m = Convert.ToInt32(ReadLine());
-int [,] numbers = new int [10,10];  // [10,10] Размер массива который создаем
+int [,] numbers = new int [10,10];  // [10,10] Размеры которые создаем
 FillArrayRandomNumbers(numbers);
 
 if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
@@ -18,7 +18,7 @@ if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 }
 else
 {
-    WriteLine($"\nзначение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
+    WriteLine($"\nЗначение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]} \n ");
 }
 
 PrintArray(numbers);

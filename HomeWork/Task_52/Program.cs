@@ -3,8 +3,7 @@ using static System.Console;
 
 Clear();
 WriteLine("Задача 52");
-WriteLine("Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.\n1 4 7 2\n5 9 2 3\n8 4 2 4");
-WriteLine("Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.");
+WriteLine("Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.\n1 4 7 2\n5 9 2 3\n8 4 2 4\n\nСреднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.");
 
 WriteLine($"Введите количество строк");
 int n = Convert.ToInt32(ReadLine());
@@ -23,7 +22,7 @@ for (int j = 0; j < numbers.GetLength(1); j++)
         avarage = (avarage + numbers[i, j]);
     }
     avarage = avarage / n;
-    Console.Write(avarage + "; ");
+    Write(avarage + "; ");
 }
 WriteLine();
 PrintArray(numbers);
